@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fffdfd;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+nav ul li {
+    margin: 0 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #f8e7ee;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+    padding: 50px;
+    background-color: #e3bfb8;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.P1{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+img{
+    border-radius: 100%;
+    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+}
+#accueil{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: flex-start;
+    margin: auto;
+    background-color: #FA6647;
+}
+#accueil h1{
+    margin-bottom: 15px;
+}
+#accueil p{
+    margin-bottom: 30px;
+}
+#accueil div {
+    padding-right: 80px;
+  }
+
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
+.about-me img {
+    border-radius: 70%;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding:20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.socials a {
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
+.lien-icone {
+    margin-left: 30px;
+  }
+  
+  .lien-icone:hover {
+    opacity: 0.5;
+  }
+  #contact{
+    justify-content: center;
+    text-align: center;
+  }
+  form input, form textarea, form button {
+    width: 40%;
+    padding: 10px;
+    margin-top: 5px;
+    justify-content: center;
+}
+label{
+    margin-right: 400px;
+}
