@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,9 +10,10 @@ body {
 
 header {
     background-color: #333;
-    color: #fffdfd;
+    color: #ffffff;
     padding: 10px 0;
     text-align: center;
+    width: 100%;
 }
 
 header h1 {
@@ -45,7 +49,7 @@ nav ul li a:hover {
 section {
     margin: 20px;
     padding: 50px;
-    background-color: #e3bfb8;
+    background-color: #FA6647;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -57,6 +61,12 @@ section {
     width: 50%;
     margin: auto;
     margin-bottom: 80px;
+}
+#competences{
+    color: white;
+}
+#contact{
+    color: white;
 }
 img{
     border-radius: 100%;
@@ -77,6 +87,7 @@ img{
 }
 #accueil p{
     margin-bottom: 30px;
+    color: white;
 }
 #accueil div {
     padding-right: 80px;
@@ -85,6 +96,11 @@ img{
 .about-me {
     display: flex;
     align-items: center;
+}
+ .com{
+  margin-bottom: 200px;
+  margin-left:20vh;    
+  color: white;
 }
 
 .about-me img {
@@ -127,10 +143,15 @@ footer {
     color: #fff;
 }
 
+
 .socials a {
     color: #fff;
     margin: 10px;
     text-decoration: none;
+}
+.socials img{
+    height: 30px;
+    width: 30px;
 }
 
 .socials a:hover {
@@ -138,6 +159,8 @@ footer {
 }
 .lien-icone {
     margin-left: 30px;
+  
+
   }
   
   .lien-icone:hover {
@@ -155,4 +178,57 @@ footer {
 }
 label{
     margin-right: 400px;
+}
+.header {
+    background-color: #FA6647;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+
+.project-container {
+    margin: 20px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.project h2 {
+    margin-top: 0;
+}
+
+.project p {
+    margin: 0 0 10px;
+}
+
+.more-text {
+    display: none;
+}
+
+.read-more-toggle {
+    display: none;
+}
+
+.read-more-toggle:checked + .more-text {
+    display: inline;
+}
+
+.read-more-label {
+    background-color: #FA6647;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.read-more-label:hover {
+    background-color: #FA6647;
 }

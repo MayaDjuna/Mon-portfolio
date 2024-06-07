@@ -21,28 +21,38 @@
 
     <section id="accueil">
         <div class="about-me">
-            <h2>À propos de moi</h2>
-            <p class="P1">Bonjour! Je suis Maya, référente digitale passionnée par la création de solutions web innovantes.<br>
+            <h2 class="com">À propos de moi</h2>
+            <p class="P1">Bonjour! Je suis Maya, référente digitale passionnée et expérimentée, spécialisée dans la transformation numérique et l'optimisation des stratégies digitales pour les entreprises. Avec une expertise solide en gestion de projets numériques, marketing digital, et développement web, je m'efforce de guider les organisations vers l'excellence technologique et l'innovation.<br>
                  Bienvenue dans mon portfolio.</p>
         </div>
         <img src="ma photo.jpeg" alt="Ma Photo">
-    </section>
+    </section> <br><br>
 
-    <section id="projets">
-        <h2>Projets</h2>
+    <div class="header">
+        <marquee behavior="scroll" direction="left"><h2>Mes Projets</h2></marquee>
+    </div>
+    <div class="project-container">
         <div class="project">
-            <h3>Projet 1</h3>
-            <p>Mon premier projet a été de créer un CV avec html et css. <br>
-                En intégrant ma photo et de lister mes compétences et mes formations.</p>
+            <h3>Transformation Digitale d'une PME</h3>
+            <p>
+                Une PME de vente au détail souhaitait moderniser ses opérations et créer une plateforme e-commerce Les objectifs étaient de digitaliser la gestion des stocks et des ventes, développer une plateforme e-commerce, et mettre en place une stratégie de marketing digital. Les étapes comprenaient l'analyse des besoins, le choix des outils, le développement et l'intégration, la formation des employés, et le lancement avec des campagnes de marketing. Les résultats ont montré une réduction de 30% des erreurs de gestion des stocks, une augmentation de 50% du chiffre d'affaires en ligne en six mois,...
+                <input type="checkbox" id="more1" class="read-more-toggle">
+                <span class="more-text"> et une amélioration de la satisfaction client.</span>
+            </p>
+            <label for="more1" class="read-more-label">Lire plus</label>
         </div>
         <div class="project">
-            <h3>Projet 2</h3>
-            <p>Mon deuxième projet consistait à faire mon portfolio</p>
+            <h3>Campagne de Marketing Digital pour une Startup Tech</h3>
+            <p>
+                Une startup tech cherchait à augmenter sa visibilité en ligne et à générer des leads pour ses applications mobiles Les objectifs étaient d'augmenter la notoriété de la marque, générer des leads qualifiés, et optimiser la présence en ligne via SEO et publicités payantes. Les étapes comprenaient l'audit digital, la définition de la stratégie, la création de contenu, les campagnes publicitaires, et l'analyse avec optimisation. Les résultats ont montré une augmentation de 200% du trafic organique en six mois, 500 leads qualifiés en trois mois,...
+                <input type="checkbox" id="more2" class="read-more-toggle">
+                <span class="more-text"> et une amélioration de 15% du taux de conversion.</span>
+            </p>
+            <label for="more2" class="read-more-label">Lire plus</label>
         </div>
-    </section>
-
+    </div>
     <section id="competences">
-        <h2>Compétences</h2>
+        <marquee><h2>Mes Compétences</h2></marquee>
         <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -52,7 +62,7 @@
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
+        <marquee><h2>Contact</h2></marquee>
         <form action="#">
             <label for="name">Nom :</label>
             <input type="text" id="name" name="name" required>
@@ -68,10 +78,10 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 PortfolioMaya. Tous droits réservés.</p>
+        <P>&copy; 2024 PortfolioMaya. Tous droits réservés.</P>
         <div class="socials">           
             <a target="_blank" href="https://www.istagram.com" class="lien-icone">
-                <img src="instagram.png" alt="Logo Instagram">
+                <img src="instagram.png" alt="Logo Instagram" class="">
             </a>
             <a target="_blank" href="https://www.twitter.com" class="lien-icone">
                 <img src="twitter.png" alt="Logo Twitter">
