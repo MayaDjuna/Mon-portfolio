@@ -51,7 +51,8 @@ section {
     padding: 50px;
     background-color: #FA6647;
     border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    
 }
 
 .P1{
@@ -66,7 +67,7 @@ section {
     color: white;
 }
 #contact{
-    color: white;
+    color: #ffffff;
 }
 img{
     border-radius: 100%;
